@@ -41,7 +41,7 @@ An epic idle card battle game for lucky ones!
 
 ## Development Deadlines
 
-- Project Startup: 19/03/2023
+- [Project Startup: 19/03/2023](https://www.dropbox.com/scl/fi/pe8p3yjfxplr68bo5x0s8/Sharing-Hub-Game-Challenge.paper?dl=0&rlkey=e4ma1mdllfspt8kdm5e87os18)
 - Ricardo da Inkanimator - Ferramenta de animação para jogos: 20/03/2023
 - Talk - You don't know games: 21/03/2023
 - Workshop Game Design - Game Loop : 22/03/2023
