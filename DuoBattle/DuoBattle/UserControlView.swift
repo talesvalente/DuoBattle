@@ -6,3 +6,13 @@
 //
 
 import Foundation
+import SwiftUI
+
+struct UserControlView: View {
+
+    var body: some View {
+        HStack{
+
+        }
+    }
+}

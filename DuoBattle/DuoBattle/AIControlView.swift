@@ -6,3 +6,18 @@
 //
 
 import Foundation
+import SwiftUI
+
+struct AIControlView: View {
+
+    var body: some View {
+        HStack{
+            Image("cards")
+                .resizable()
+                .frame(maxWidth: 150, maxHeight: 250)
+            Spacer()
+        }
+    }
+}
+
+

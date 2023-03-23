@@ -4,10 +4,10 @@ import SpriteKit
 
 struct BattleControlView: View {
 
-    @State private var playerCard = "card1"
-    @State private var cpuCard = "card2"
+    @State private var playerCard  = "card"+String(Int.random(in: 1...5))
+    @State private var cpuCard     = "card"+String(Int.random(in: 1...5))
     @State private var playerScore = 0
-    @State private var cpuScore = 0
+    @State private var cpuScore    = 0
 
     var body: some View {
         ZStack {
@@ -17,9 +17,6 @@ struct BattleControlView: View {
                 .ignoresSafeArea()
 
            VStack {
-
-               Spacer()
-
                Image("logo")
                    .resizable()
                    .scaledToFit()
@@ -27,23 +24,19 @@ struct BattleControlView: View {
                Spacer()
 
                HStack {
-                   Spacer()
                    Image(playerCard)
                        .resizable()
-                       .frame(maxWidth: 150, maxHeight: 250)
-                   Spacer()
-                   Image(cpuCard)
-                       .resizable()
-                       .frame(maxWidth: 150, maxHeight: 250)
-                   Spacer()
+                       .scaledToFit()
+                   
                }
-               .padding(50)
+               .padding(.top, 10)
+
                Spacer()
 
                Button(action: {
-                          // Generate a random number between 2 and 14
-                          let playerRand = Int.random(in: 1...3)
-                          let cpuRand = Int.random(in: 1...3)
+
+                          let playerRand = Int.random(in: 1...5)
+                          let cpuRand = Int.random(in: 1...5)
 
                           // Update the cards
                           playerCard = "card" + String(playerRand)
@@ -66,10 +59,12 @@ struct BattleControlView: View {
 
                        })
 
-
                Spacer()
+
                HStack {
+
                    Spacer()
+
                    VStack {
                        Text("Player")
                            .font(.headline)
@@ -79,7 +74,9 @@ struct BattleControlView: View {
                            .font(.largeTitle)
                            .foregroundColor(Color.white)
                    }
+
                    Spacer()
+
                    VStack {
                        Text("CPU")
                            .font(.headline)
