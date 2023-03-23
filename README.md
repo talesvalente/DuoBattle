@@ -22,6 +22,9 @@ An epic idle card battle game for lucky ones!
 - Attack the enemy AI to destroy they cards and take his gamelife or defend yourself against him to prevent your gamelife loses.
 - Every card destroyed by your hand will increase your gamelife based on the difference between your card's attack and enemy card's defense.
 - Your or AI cards will be destroyed if the Attacker Power (Atk Attribute) was great than Defense power (Def Attribute) of the opponent.
+- After any match, the winner will be prompted to keep your card for the next round or convert it in gamelife (a % of ATK-DEF attribute)
+- If the attacker destroy a Card in Defensive instance, the loser will not lost your gamelife
+- If the attacker attacks a Card in Attack mod but the his def is great than the Attacker`s Attack, the Attacker will be destroyed and lose gamelife points ( Diff between Attacked Def and Attacker Atk)
 - Win the match the player who drops the opponent life to zero.
 
 #### Nexts Improves & Updates
