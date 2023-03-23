@@ -31,6 +31,7 @@ An epic idle card battle game for lucky ones!
 
 #### Game Components & Actions
 - Player: A real user or AI based on ChatGPT Sourcer (Always be Hard)
+- Cards: A representation of player power
 - Card Attributes: Atk, Def
 - Card Instances: Attack Position, Defense Position
 - Scoreboard: Features based on player score (best card, best lucky, etc)
@@ -49,8 +50,6 @@ An epic idle card battle game for lucky ones!
 #### To infinity and Beyond Improves & Updates
 - Multiplayer (MMO RPG)
 
-
-
 ## Development Deadlines
 
 - [Project Startup: 19/03/2023](https://www.dropbox.com/scl/fi/pe8p3yjfxplr68bo5x0s8/Sharing-Hub-Game-Challenge.paper?dl=0&rlkey=e4ma1mdllfspt8kdm5e87os18)
@@ -63,7 +62,7 @@ An epic idle card battle game for lucky ones!
 - Data Magna: 01/04/2023
 - SharingDay Final: 20/04/2023
 
-## Suporte
+## Help Center
 
-Para suporte, mande um email para fake@fake.com ou entre em nosso canal do Slack.
+Use github issues to reach help.
 
