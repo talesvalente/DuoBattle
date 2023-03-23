@@ -4,7 +4,7 @@
 
 # Duo Battle
 
-An epic idle card battle card game for lucky ones!
+An epic idle card battle game for lucky ones!
 
 
 ## Autores
