@@ -7,7 +7,7 @@
 An epic idle card battle game for lucky ones!
 
 
-## Autores
+## Development Team
 
 - [@talesvalente](https://www.github.com/talesvalente)
 - [@ChatGPT](https://chat.openai.com/chat)
