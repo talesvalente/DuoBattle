@@ -12,7 +12,9 @@ struct DuoBattleApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                BattleControlView()
+            }
         }
     }
 }

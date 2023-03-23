@@ -9,19 +9,23 @@
 /* Begin PBXBuildFile section */
 		85906F3629CC748000656B59 /* DuoBattleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85906F3529CC748000656B59 /* DuoBattleApp.swift */; };
 		85906F3B29CC748000656B59 /* DuoBattle.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 85906F3929CC748000656B59 /* DuoBattle.xcdatamodeld */; };
-		85906F3D29CC748000656B59 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85906F3C29CC748000656B59 /* ContentView.swift */; };
+		85906F3D29CC748000656B59 /* BattleControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85906F3C29CC748000656B59 /* BattleControlView.swift */; };
 		85906F3F29CC748100656B59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85906F3E29CC748100656B59 /* Assets.xcassets */; };
 		85906F4329CC748100656B59 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85906F4229CC748100656B59 /* Preview Assets.xcassets */; };
+		85921ABC29CC8DA900006D2D /* UserControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85921ABB29CC8DA900006D2D /* UserControlView.swift */; };
+		85921ABE29CC8DB800006D2D /* AIControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85921ABD29CC8DB800006D2D /* AIControlView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		85906F3229CC748000656B59 /* DuoBattle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DuoBattle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85906F3529CC748000656B59 /* DuoBattleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuoBattleApp.swift; sourceTree = "<group>"; };
 		85906F3A29CC748000656B59 /* DuoBattle.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DuoBattle.xcdatamodel; sourceTree = "<group>"; };
-		85906F3C29CC748000656B59 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		85906F3C29CC748000656B59 /* BattleControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleControlView.swift; sourceTree = "<group>"; };
 		85906F3E29CC748100656B59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85906F4029CC748100656B59 /* DuoBattle.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DuoBattle.entitlements; sourceTree = "<group>"; };
 		85906F4229CC748100656B59 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		85921ABB29CC8DA900006D2D /* UserControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserControlView.swift; sourceTree = "<group>"; };
+		85921ABD29CC8DB800006D2D /* AIControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIControlView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				85906F3529CC748000656B59 /* DuoBattleApp.swift */,
-				85906F3C29CC748000656B59 /* ContentView.swift */,
+				85906F3C29CC748000656B59 /* BattleControlView.swift */,
+				85921ABB29CC8DA900006D2D /* UserControlView.swift */,
+				85921ABD29CC8DB800006D2D /* AIControlView.swift */,
 				85906F3E29CC748100656B59 /* Assets.xcassets */,
 				85906F4029CC748100656B59 /* DuoBattle.entitlements */,
 				85906F3929CC748000656B59 /* DuoBattle.xcdatamodeld */,
@@ -143,7 +149,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				85906F3629CC748000656B59 /* DuoBattleApp.swift in Sources */,
-				85906F3D29CC748000656B59 /* ContentView.swift in Sources */,
+				85921ABC29CC8DA900006D2D /* UserControlView.swift in Sources */,
+				85921ABE29CC8DB800006D2D /* AIControlView.swift in Sources */,
+				85906F3D29CC748000656B59 /* BattleControlView.swift in Sources */,
 				85906F3B29CC748000656B59 /* DuoBattle.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

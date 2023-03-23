@@ -2,7 +2,7 @@
 import SwiftUI
 import SpriteKit
 
-struct ContentView: View {
+struct BattleControlView: View {
 
     @State private var playerCard = "card1"
     @State private var cpuCard = "card2"
@@ -11,19 +11,21 @@ struct ContentView: View {
 
     var body: some View {
         ZStack {
-
            Image("background")
                 .resizable()
                 .scaledToFill()
                 .ignoresSafeArea()
 
-
            VStack {
+
                Spacer()
+
                Image("logo")
                    .resizable()
                    .scaledToFit()
+
                Spacer()
+
                HStack {
                    Spacer()
                    Image(playerCard)
