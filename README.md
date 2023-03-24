@@ -15,6 +15,10 @@ An epic idle card battle game for lucky ones!
 - [@Copilot](https://github.com/features/copilot)
 - [@BlackBoxAI](https://www.useblackbox.io/)
 
+## Game Main Scope Cicle - Version 1.0.0.2a
+- Challenge: Battle against AI_PLAYER and win the matchs to Level Up
+- Mechanics: Read, Plan and Act with simple buttons and prompts on screen; A victory will increase your power, give credits for shop, unlock new cards and unique features
+-Rewards: Power UP, Credits for shop, new cards and features; Credits can be used in shop to unlock features, unique avatars and create unique cards based on real images uploaded by the user (Should agree with Privacy Policy and Terms of Services)
 
 ## Game Mechanics & Rules - Version 1.0.0.2a
 - Endless Battle Card
