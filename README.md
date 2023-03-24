@@ -24,14 +24,14 @@ An epic idle card battle game for lucky ones!
 - Endless Battle Card
 - Pull random cards to fight against your enemy AI
 - Attack the enemy AI to destroy they cards and take his gamelife or defend yourself against him to prevent your gamelife loses.
-- Every card destroyed by your hand will increase your gamelife based on the difference between your card's attack and enemy card's defense.
-- Your or AI cards will be destroyed if the Attacker Power (Atk Attribute) was great than Defense power (Def Attribute) of the opponent.
+- Every card destroyed by your hand will increase your gamelife based on the difference between your card's ATTACK ATTRIBUTE and enemy card's DEF ATTRIBUTE.
+- Your or AI_PLAYER cards will be destroyed if the Attacker Power (ATK ATTRIBUTE) was great than Defense power (DEF ATTRIBUTE) of the opponent.
 - After any match, the winner will be prompted to keep your card for the next round or convert it in gamelife (a % of ATK-DEF attribute)
-- If the attacker destroy a Card in Defensive instance, the loser will not lost your gamelife
-- If the Player attempts to attack a Card in ATTACK MOD and his DEF ATRIBUTE is great than the Attacker's ATK ATRIBUTE, the Attacker will be destroyed and lose gamelife points ( Diff between Attacked Def Atribute and Attacker Atk Atribute)
+- If the attacker destroy a Card in DEF MODE, the loser will not lose your gamelife
+- If the Player attempts to attack a Card in ATTACK MODE and his DEF ATRIBUTE is great than the Attacker's ATK ATRIBUTE, the Attacker will be destroyed and lose gamelife points ( Diff between Attacked DEF ATTRIBUTE and Attacker ATK ATTRIBUTE)
 - Win the match the player who drops the opponent life to zero.
-- The winner (takes it all - abba) will improve your scoreboard and unlock new cards everytime him win a match (drop enemy life to zero)
-- When User lost a match (game life become zero) he will lose cards too. RANDOMLY
+- The winner (takes it all - abba) will improve your scoreboard, gain EXP for Level UP, gain credits and unlock new cards everytime him win a match (drop enemy life to zero)
+- When User lost a match (game life become zero) he will lose cards too, drop exp, scoreboard and credits.
 
 #### Game Components & Actions
 - Player: A real user or AI based on ChatGPT Sourcer (Always be Hard)
