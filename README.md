@@ -2,7 +2,7 @@
 ![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
 
 
-# Duo Battle
+# Duo Battle - Version 1.0.0.2a
 
 An epic idle card battle game for lucky ones!
 
@@ -15,12 +15,12 @@ An epic idle card battle game for lucky ones!
 - [@Copilot](https://github.com/features/copilot)
 - [@BlackBoxAI](https://www.useblackbox.io/)
 
-## Game Cicle - Version 1.0.0.2a
+## Game Cicle
 - Challenge: Battle against AI_PLAYER and win the matchs to Level Up
 - Mechanics: Read, Plan and Act with simple buttons and prompts on screen; A victory will increase your power, give credits for shop, unlock new cards and unique features
 -Rewards: Power UP, Credits for shop, new cards and features; Credits can be used in shop to unlock features, unique avatars and create unique cards based on real images uploaded by the user (Should agree with Privacy Policy and Terms of Services)
 
-## Game Mechanics & Rules - Version 1.0.0.2a
+## Game Mechanics & Rules
 - Endless Battle Card
 - Pull random cards to fight against your enemy AI
 - Attack the enemy AI to destroy they cards and take his gamelife or defend yourself against him to prevent your gamelife loses.
