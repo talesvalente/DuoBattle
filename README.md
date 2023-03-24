@@ -15,10 +15,18 @@ An epic idle card battle game for lucky ones!
 - [@Copilot](https://github.com/features/copilot)
 - [@BlackBoxAI](https://www.useblackbox.io/)
 
+## Minimum Viable Product (MvP)
+- User vs Player_AI based with 5 Basics Steps:
+1. Star the game and Pick up random card;
+2. Set it to ATTACK or DEFENSIVE POSITION;
+3. Press Duo (Action) button;
+4. Won the match to unlock new cards / Lose the match to lose your cards
+5. Have Fun !
+
 ## Game Cicle
 - Challenge: Battle against AI_PLAYER and win the matchs to Level Up
 - Mechanics: Read, Plan and Act with simple buttons and prompts on screen; A victory will increase your power, give credits for shop, unlock new cards and unique features
--Rewards: Power UP, Credits for shop, new cards and features; Credits can be used in shop to unlock features, unique avatars and create unique cards based on real images uploaded by the user (Should agree with Privacy Policy and Terms of Services)
+- Rewards: Power UP, Credits for shop, new cards and features; Credits can be used in shop to unlock features, unique avatars and create unique cards based on real images uploaded by the user (Should agree with Privacy Policy and Terms of Services)
 
 ## Game Mechanics & Rules
 - Endless Battle Card
